@@ -34,7 +34,7 @@ public class Main {
             return false;
         }
 
-        if (barking && (hour < 8 || hour > 22)) {
+        if (barking && (hour < 8 || hour > 20)) {
             return true;
         }
 
